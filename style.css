@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.title-container p {
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+#img-div {
+  width: fit-content;
+  margin: auto;
+}
+
+figcaption {
+  width: 100%;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+.margin {
+  margin-bottom: 50px;
+}
+
+.trib {
+  background-image: url("https://assets.vogue.com/photos/6226726574d063bc1f571f6f/master/w_960%2Cc_limit/1197373503");
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trib p {
+  width: 300px;
+  text-align: center;
+}
+#tribute-info,
+#timeline,
+.card {
+  width: 70%;
+  background-color: white;
+  padding: 30px;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.card p {
+  margin-top: 0;
+}
+
+#timeline {
+  font-size: 1rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+h3 {
+  margin: 0;
+}
+
+a:active,
+a:visited,
+a {
+  color: black;
+}
+
+a:hover {
+  color: #464646;
+}
+
+.timeline {
+  background-color: white;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t-h2 {
+  margin: 0;
+}
+
+.credits {
+  background-color: white;
+  padding: 30px;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 60px;
+}
+
+.trib2 {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-3239372-master-1498749060.jpg?crop=1xw:1xh;center,top&resize=980:*");
+}
+
+.trib3 {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-79729809-master-1498749089.jpg?crop=1xw:1xh;center,top&resize=980:*");
+  background-position: top;
+}
+
+.trib4 {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/princess-diana-wedding-day-1582543485.jpg?resize=768:*");
+}
+.trib5 {
+  background-image: url("https://www.mariotestino.com/wp-content/uploads/2005/09/DIANA_PRESS_06-640x515.jpg");
+  background-position: top;
+}
